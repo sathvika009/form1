@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration</title>
+        <style>
+            body{
+                background-color: rgb(243, 200, 245);
+                padding:20px;
+            }
+            h1{
+                text-align:center;
+                color:brown;
+            }
+            form{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="get" target="blank">
+            <input id="name" type="text" name="uname" value="Name">
+            <label for="name"></label><br><br>
+            <input id="email" tupe="text" name="email" value="Email">
+            <label for="email"></label><br><br>
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female<br><br>
+            <label for="course">Select courses:</label><br><br>
+            <select id="course" name="course" multiple>
+                <option>C language</option>
+                <option>JAVA language</option>
+                <option>Python language</option>
+                <option>Java Script</option>
+            </select><br><br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </body>
+</html>
